@@ -1,0 +1,106 @@
+/* ✅ Overall Buy Window Box */
+#buy-window {
+  width: 360px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e5e7eb;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  cursor: move;
+}
+
+/* ✅ Input Section */
+.regular-order {
+  width: 100%;
+}
+
+.inputs {
+  display: flex;
+  gap: 16px;
+}
+
+/* ✅ Fieldset Styling */
+.inputs fieldset {
+  flex: 1;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 8px 10px 10px;
+  background: #f9fafb;
+}
+
+/* ✅ Legends */
+.inputs legend {
+  font-size: 12px;
+  font-weight: 600;
+  color: #2563eb;
+  padding: 0 6px;
+}
+
+/* ✅ Input Boxes */
+.inputs input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  padding-top: 4px;
+}
+
+/* ✅ Buttons Section */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ✅ Margin Text */
+.buttons span {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* ✅ Button Group */
+.buttons div {
+  display: flex;
+  gap: 12px;
+}
+
+/* ✅ Buy Button */
+.btn-blue {
+  flex: 1;
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.btn-blue:hover {
+  background: #1d4ed8;
+  color: white;
+}
+
+/* ✅ Cancel Button */
+.btn-grey {
+  flex: 1;
+  background: #e5e7eb;
+  color: #111827;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.btn-grey:hover {
+  background: #d1d5db;
+  color: #111827;
+}
