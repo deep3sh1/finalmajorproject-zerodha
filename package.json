@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "fronted",
   "version": "0.1.0",
   "private": true,
@@ -54,7 +53,7 @@
     "autoprefixer": "^10.4.22",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.17"
-=======
+    
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
@@ -80,6 +79,5 @@
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^9.0.0"
->>>>>>> 9c4d1be8da424ba2f7891fb79d19b5e0bd3ecf17
   }
 }
